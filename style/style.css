@@ -1,62 +1,99 @@
-*{
-    /* background-color: rgba(37, 149, 190, 0.132); */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
+* {
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #f5f8ff;
 }
 /* share style */
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* header */
 /* nav */
-nav{
-   display: flex;
-   /* gap: 50px ; */
-   align-items: center;
-   justify-content: space-between;
-   margin: 30px 0;
+nav {
+  display: flex;
+  /* gap: 50px ; */
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
 }
-ul{
-    display: flex;
-    list-style: none;
-    gap: 70px;
-    /* margin-top: 40px; */
-    
+ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+  /* margin-top: 40px; */
 }
-li a{
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #8987A1;
+li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8987a1;
 }
-#home{
-    font-weight: 700;
-    color: #252432;
+#home {
+  font-weight: 700;
+  color: #252432;
 }
-#cart{
-    color: #000000;
+#cart {
+  color: #000000;
 }
 /* banner */
-.banner{
-    display: flex;
-    align-items: center;
+.banner {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
 }
-.banner-title{
-    font-size: 65px;
-    font-weight: 700;
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #000000;
 }
-.banner-description{
-
+#orange{
+    color: #E95A08;
 }
-
-
-
-
+.banner-description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #00000080;
+}
 
 /* Responsive */
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
+   
+   /* header */
+    nav{
+       padding:0 20px; 
+    }
+    nav img{
+      max-width: 70px;
+    }
+    ul{
+      gap: 0px;
+    }
     
+    .hidden{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .banner-content{
+       padding:20px 15px; 
+    }
+    .banner-title{
+        font-size: 2.5rem;
+        /* padding:0 10px; */
+    }
+    .banner-description{
+        font-size: 1rem;
+    }
+   
+    .banner-image img{
+        max-width: 100%;
+    }
 }
