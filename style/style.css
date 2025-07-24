@@ -13,6 +13,20 @@ body{
   max-width: 1140px;
   margin: 0 auto;
 }
+.description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #00000080;
+}
+.title {
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: #000000;
+}
+/* color */
+.orange{
+    color: #E95A08;
+}
 /* header */
 /* nav */
 nav {
@@ -47,23 +61,99 @@ li a {
   display: flex;
   align-items: center;
 }
-.banner-title {
+.banner-content h1 {
   font-size: 4rem;
-  font-weight: 700;
-  color: #000000;
+
 }
-#orange{
-    color: #E95A08;
+
+.banner-content p {
+  margin-top: 20px;
+  
 }
-.banner-description {
+
+/* main */
+.plants{
+  margin-top: 50px;
+ 
+}
+.plants-content{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plants-content p{
+  max-width:880px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.card{
+  max-width: 270px;
+  text-align: center;
+
+}
+.card h3{
+  margin-top: 15px;
   font-size: 1.3rem;
-  font-weight: 400;
-  color: #00000080;
+  font-weight: 600;
+  color: #111111;
 }
+.card p{
+   margin-top: 15px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #111111;
+}
+.card button{
+   margin-top: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-weight: 500;
+  background-color: #E95A08;
+  padding: 15px 80px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive */
 @media screen and (max-width: 576px) {
-   
+   /* share style */
+     .title{
+      font-size: 1.8rem;
+     }
+     .description{
+        font-size: 0.9rem;
+    }
    /* header */
     nav{
        padding:0 20px; 
@@ -84,16 +174,33 @@ li a {
     }
     .banner-content{
        padding:20px 15px; 
+       text-align: left;
     }
-    .banner-title{
-        font-size: 2.5rem;
-        /* padding:0 10px; */
+    .banner-content h1{
+        font-size: 1.8rem;
+       
     }
-    .banner-description{
-        font-size: 1rem;
-    }
-   
     .banner-image img{
         max-width: 100%;
     }
+    /* main */
+    /* plants */
+    .plants-content{
+         padding:10px 15px 0 15px; 
+    }
+    .card-container{
+      grid-template-columns: repeat(2,1fr);
+       padding:20px 15px; 
+    }
+    .card{
+       max-width: 170px;
+    }
+    .card img{
+      max-width: 100%;
+    }
+    .card button{
+      max-width: 100%;
+      padding: 15px 25px;
+    }
+    
 }
