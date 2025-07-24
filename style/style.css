@@ -40,7 +40,7 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 70px;
-  /* margin-top: 40px; */
+  margin-left: 490px;
 }
 li a {
   text-decoration: none;
@@ -54,6 +54,9 @@ li a {
 }
 #cart {
   color: #000000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
 }
 /* banner */
 .banner {
@@ -139,13 +142,13 @@ li a {
   max-height: 280px;
 }
 .plants-lover-content{
-  max-width: 440px;
+  max-width: 460px;
 }
-.plants-lover-content ul{
+.plants-lover-content ul{    
   margin-top: 20px;
   padding-left: 30px;
 }
-
+/* Latest deal */
 
 
 
@@ -182,20 +185,20 @@ li a {
     }
    /* header */
     nav{
-      
+      padding-right: 20px;
     }
     nav img{
-      max-width: 80px;
+      max-width: 90px;
       padding-left: 20px;
     }
-    ul{
+    /* ul{
       gap: 0px;
-    }
+    } */
     #cart{
-      font-size: 0.7rem;
+      font-size: 1rem;
       display: flex ;
       gap: 10px;
-     margin-right: 10px;
+     margin-left: -590px;
     }
      
     .hidden{
@@ -251,3 +254,4 @@ li a {
       max-width: 100%;
     }
 }
+
