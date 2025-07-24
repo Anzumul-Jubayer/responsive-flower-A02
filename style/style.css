@@ -36,7 +36,7 @@ nav {
   justify-content: space-between;
   margin-top: 40px;
 }
-ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 70px;
@@ -117,8 +117,34 @@ li a {
   padding: 15px 80px;
   border: none;
 }
+/* plants lover */
+.plants-lover{
+  margin-top: 150px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.plant-lover-image{
+  display: flex;
+  max-width: 100%;
+  position: relative;
+}
 
-
+#badge{
+  position: absolute;
+  /* top: 230px; */
+  left: 380px;
+  top: -140px;
+  max-width: 280px;
+  max-height: 280px;
+}
+.plants-lover-content{
+  max-width: 540px;
+}
+.plants-lover-content ul{
+  margin-top: 20px;
+  padding-left: 30px;
+}
 
 
 
@@ -202,5 +228,5 @@ li a {
       max-width: 100%;
       padding: 15px 25px;
     }
-    
+    /* plants lover */
 }
