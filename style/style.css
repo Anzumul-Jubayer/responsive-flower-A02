@@ -77,17 +77,17 @@ li a {
   max-width: 100%;
 }
 /* main */
+/* plants */
 .plants {
   margin-top: 50px;
 }
 .plants-content {
-  text-align: center;
-  margin-bottom: 50px;
-}
-.plants-content p {
   max-width: 880px;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 50px auto;
+  text-align: center;
+}
+.plants-content h2{
+  margin-bottom: 20px;
 }
 .card-container {
   display: grid;
@@ -97,6 +97,10 @@ li a {
 .card {
   max-width: 270px;
   text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.353);
+}
+.card img{
+  max-width: 270px;
 }
 .card h3 {
   margin-top: 15px;
@@ -355,26 +359,40 @@ li a {
 
   /* main */
   /* plants */
-  .plants-content {
-    margin: 20px 20px;
-  }
-
-  .card-container {
-    grid-template-columns: repeat(2, 1fr);
-
-    padding-left: 15px;
-    padding-right: 45px;
-    gap: 20px 20px;
-  }
-  .card {
-    width: 190px;
-  }
-  .card img {
-    max-width: 190px;
-  }
-  .card button {
-    padding: 15px 40px;
-  }
+ .plants{
+  text-align: center;
+ }
+ .plants-content{
+  width: 100%;
+  padding: 0 10px;
+ }
+ .plants-content h2{
+  width: 540px;
+ }
+ .plants-content p{
+  width: 540px;
+  margin-right: 20px;
+ 
+ }
+ .card-container{
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 35px;
+  margin-right: 25px;
+  /* gap: 20px 5px; */
+  
+ }
+ .card{
+   width: 240px;
+ }
+ .card img{
+  width: 240px;
+ }
+ .card button{
+  font-size: 0.7rem;
+  padding: 20px 80px;
+ }
+  
+ 
   /* plants lover */
   .plants-lover {
     margin-top: 20px;
