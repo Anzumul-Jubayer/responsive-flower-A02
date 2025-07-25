@@ -40,6 +40,7 @@ nav ul {
   list-style: none;
   gap: 70px;
   margin-left: 490px;
+  margin-top: 30px;
 }
 li a {
   text-decoration: none;
@@ -56,6 +57,7 @@ li a {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
+  margin-top: 30px;
 }
 /* banner */
 .banner {
@@ -97,7 +99,7 @@ li a {
 .card {
   max-width: 270px;
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.353);
+  
 }
 .card img{
   max-width: 270px;
@@ -119,9 +121,8 @@ li a {
   font-size: 1rem;
   font-weight: 500;
   color: #ffffff;
-  font-weight: 500;
   background-color: #e95a08;
-  padding: 15px 80px;
+  padding: 25px 80px;
   border: none;
 }
 
@@ -248,9 +249,10 @@ li a {
   margin-top: 60px;
   text-align: center;
   background: url(../assets/news-letter-bg.png);
-
+  
   height: 530px;
   background-repeat: no-repeat;
+  background-position: center; 
   background-size: cover;
 }
 .newsletter {
@@ -326,7 +328,7 @@ li a {
 
 /* Responsive */
 @media screen and (max-width: 576px) {
-  /* share style */
+ 
    
   
   /* header */
@@ -355,7 +357,9 @@ li a {
    padding-top: 20px;
    padding-left: 20px;
   }
-  
+  .banner-image img{
+    width: 576px;
+  }
   .banner-content h1{
     width: 100%;
     font-size:2.5rem;
@@ -392,9 +396,11 @@ li a {
  }
  .card{
    width: 240px;
+   
  }
  .card img{
   width: 240px;
+  
  }
  .card button{
   font-size: 0.7rem;
@@ -464,7 +470,9 @@ li a {
   }
   /* newsletter */
   .join {
-    margin-top: -150px;
+    margin-top: -20px;
+    width: 576px;
+     
   }
   .newsletter {
     padding-top: 200px;
