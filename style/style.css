@@ -293,6 +293,7 @@ li a {
 
 ::placeholder {
   padding-left: 30px;
+  color: #0000006b;
 }
 /* footer */
 .footer {
@@ -481,7 +482,8 @@ li a {
     font-size: 1.5rem;
   }
   .subscribe-form {
-    max-width: 80%;
+    max-width: 70%;
+    
   }
   /* footer */
   .footer {
